@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Noel_vibes
 
-## Getting Started
+Un projet Next.js servant de base pour créer une petite application web frontale (site de démonstration / landing page / prototype).
 
-First, run the development server:
+## Description
+
+Ce dépôt contient une application Next.js (App Router) créée avec `create-next-app`. Le projet est configuré pour le développement local, la construction pour la production, et le déploiement sur Vercel.
+
+## Prérequis
+
+- Node.js 18+ recommandé
+- npm / yarn / pnpm / bun (au choix)
+
+## Installation
+
+1. Clonez le dépôt:
+
+```bash
+git clone https://github.com/Edetho/Noel_vibes.git
+cd Noel_vibes
+```
+
+2. Installez les dépendances (exemples):
+
+```bash
+npm install
+# ou
+yarn install
+# ou
+pnpm install
+# ou
+bun install
+```
+
+## Scripts utiles\n
+- Démarrer le serveur de développement:
 
 ```bash
 npm run dev
-# or
+# ou
 yarn dev
-# or
+# ou
 pnpm dev
-# or
+# ou
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Construire pour la production:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run build
+# ou
+yarn build
+# ou
+pnpm build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Prévisualiser la build production:
 
-## Learn More
+```bash
+npm run start
+# ou
+yarn start
+# ou
+pnpm start
+```
 
-To learn more about Next.js, take a look at the following resources:
+Ouvrez http://localhost:3000 dans votre navigateur.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Structure du projet
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `app/` — pages et composantes du routeur App
+- `public/` — fichiers statiques (images, favicon, etc.)
+- `styles/` — styles globaux
+- `package.json` — scripts et dépendances
 
-## Deploy on Vercel
+## Personnalisation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Modifiez `app/page.tsx` pour éditer la page d'accueil.
+- Ajoutez vos composants dans `app/components` ou un dossier `src/components` selon votre préférence.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Déploiement
+
+Le moyen le plus simple est Vercel : connectez le dépôt et déployez. Consultez la documentation Next.js et Vercel pour les réglages avancés:
+
+- https://nextjs.org/docs/app/building-your-application/deploying
+- https://vercel.com/docs
+
+## Contribuer
+
+Les contributions sont bienvenues : ouvrez une issue pour proposer un changement ou créez une pull request.
+
+## Licence
+
+MIT — voir le fichier LICENSE si présent.
+
+---
+
+_Fichier mis à jour automatiquement par GitHub Copilot (assistant). Si vous voulez d'autres modifications (par ex. traduction en anglais, ajout d'un badge CI/CD, exemples d'API), dites-moi ce que vous souhaitez._
