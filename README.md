@@ -1,26 +1,40 @@
-# Noel_vibes
+# 🎄 Noël Magique — Plateforme de vœux personnalisés
 
-Un projet Next.js servant de base pour créer une petite application web frontale (site de démonstration / landing page / prototype).
+Noël Magique est une application web interactive développée avec Next.js, permettant aux utilisateurs de créer et partager des vœux de Noël personnalisés.
 
-## Description
+L’utilisateur entre son prénom, choisit un message parmi plusieurs vœux, puis génère un lien unique qu’il peut partager (WhatsApp, Facebook, lien direct). Le destinataire reçoit un message personnalisé avec une ambiance festive (animations, musique, design Noël).
 
-Ce dépôt contient une application Next.js (App Router) créée avec `create-next-app`. Le projet est configuré pour le développement local, la construction pour la production, et le déploiement sur Vercel.
+## ✨ Fonctionnalités principales
 
-## Prérequis
+- Saisie du prénom de l’utilisateur
+- Sélection parmi plus de 15 vœux de Noël
+- Génération de liens personnalisés
+- Partage rapide via WhatsApp
+- Ambiance festive (musique, effets visuels)
+- Design mobile-first
 
-- Node.js 18+ recommandé
-- npm / yarn / pnpm / bun (au choix)
+## 🛠️ Stack technique
 
-## Installation
+- Next.js (App Router)
+- React
+- TypeScript
+- Tailwind CSS
+- LocalStorage (gestion des données côté client)
 
-1. Clonez le dépôt:
+## 🎯 Objectif du projet
+
+Mettre en avant mes compétences en développement web moderne, UX/UI et création d’expériences interactives.
+
+## 📦 Installation & exécution
+
+1. Clonez le dépôt :
 
 ```bash
 git clone https://github.com/Edetho/Noel_vibes.git
 cd Noel_vibes
 ```
 
-2. Installez les dépendances (exemples):
+2. Installez les dépendances :
 
 ```bash
 npm install
@@ -32,8 +46,7 @@ pnpm install
 bun install
 ```
 
-## Scripts utiles\n
-- Démarrer le serveur de développement:
+3. Lancez le serveur de développement :
 
 ```bash
 npm run dev
@@ -45,55 +58,39 @@ pnpm dev
 bun dev
 ```
 
-- Construire pour la production:
-
-```bash
-npm run build
-# ou
-yarn build
-# ou
-pnpm build
-```
-
-- Prévisualiser la build production:
-
-```bash
-npm run start
-# ou
-yarn start
-# ou
-pnpm start
-```
-
 Ouvrez http://localhost:3000 dans votre navigateur.
 
-## Structure du projet
+## 🧭 Structure du projet
 
-- `app/` — pages et composantes du routeur App
-- `public/` — fichiers statiques (images, favicon, etc.)
-- `styles/` — styles globaux
+- `app/` — pages et composants (App Router)
+- `public/` — fichiers statiques (images, audio, etc.)
+- `styles/` — styles globaux (Tailwind config)
+- `components/` — composants réutilisables
 - `package.json` — scripts et dépendances
 
-## Personnalisation
+## 🔧 Personnalisation rapide
 
-- Modifiez `app/page.tsx` pour éditer la page d'accueil.
-- Ajoutez vos composants dans `app/components` ou un dossier `src/components` selon votre préférence.
+- Modifiez `app/page.tsx` pour éditer la page d’accueil.
+- Ajoutez/éditez les vœux dans le composant ou le fichier où ils sont définis.
+- Placez les assets (musique, images) dans `public/`.
 
-## Déploiement
+## 🚀 Déploiement
 
-Le moyen le plus simple est Vercel : connectez le dépôt et déployez. Consultez la documentation Next.js et Vercel pour les réglages avancés:
+Déployer sur Vercel est recommandé (intégration Next.js native). Consultez la documentation :
 
 - https://nextjs.org/docs/app/building-your-application/deploying
 - https://vercel.com/docs
 
-## Contribuer
+## 🤝 Contribuer
 
-Les contributions sont bienvenues : ouvrez une issue pour proposer un changement ou créez une pull request.
+Les contributions sont bienvenues. Ouvrez une issue pour discuter d’un changement ou proposez une pull request.
 
-## Licence
+## 📝 Licence
 
 MIT — voir le fichier LICENSE si présent.
 
 ---
 
-_Fichier mis à jour automatiquement par GitHub Copilot (assistant). Si vous voulez d'autres modifications (par ex. traduction en anglais, ajout d'un badge CI/CD, exemples d'API), dites-moi ce que vous souhaitez._
+Développé par : Prosper
+
+_(README mis à jour selon vos indications)_
